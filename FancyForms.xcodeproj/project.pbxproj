@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B380CF8B9CBBCC9346C6E5B /* Pods_FancyFormsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174B85A27C42DBF2D108F955 /* Pods_FancyFormsTests.framework */; };
 		96FEC4492141AF7A006D5EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEC4482141AF7A006D5EAA /* AppDelegate.swift */; };
 		96FEC44B2141AF7A006D5EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEC44A2141AF7A006D5EAA /* ViewController.swift */; };
 		96FEC44E2141AF7A006D5EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FEC44C2141AF7A006D5EAA /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		96FEC4532141AF7B006D5EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FEC4522141AF7B006D5EAA /* Assets.xcassets */; };
 		96FEC4562141AF7B006D5EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FEC4542141AF7B006D5EAA /* LaunchScreen.storyboard */; };
 		96FEC4612141AF7B006D5EAA /* FancyFormsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEC4602141AF7B006D5EAA /* FancyFormsTests.swift */; };
+		F4D86E555DB8CBF2C53F521C /* Pods_FancyForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16005FF34B674D4A1479F31A /* Pods_FancyForms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16005FF34B674D4A1479F31A /* Pods_FancyForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174B85A27C42DBF2D108F955 /* Pods_FancyFormsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyFormsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211111B3F96E7934C6F13B32 /* Pods-FancyForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyForms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FancyForms/Pods-FancyForms.debug.xcconfig"; sourceTree = "<group>"; };
+		962D7AC11E7E276D69D77292 /* Pods-FancyFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyFormsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FancyFormsTests/Pods-FancyFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		96FEC4452141AF7A006D5EAA /* FancyForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FEC4482141AF7A006D5EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FEC44A2141AF7A006D5EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		96FEC45C2141AF7B006D5EAA /* FancyFormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyFormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FEC4602141AF7B006D5EAA /* FancyFormsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyFormsTests.swift; sourceTree = "<group>"; };
 		96FEC4622141AF7B006D5EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EC2CB9C56D31C0DE29E453 /* Pods-FancyFormsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyFormsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FancyFormsTests/Pods-FancyFormsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4621324D1E2529C52D97DC /* Pods-FancyForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyForms.release.xcconfig"; path = "Pods/Target Support Files/Pods-FancyForms/Pods-FancyForms.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D86E555DB8CBF2C53F521C /* Pods_FancyForms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B380CF8B9CBBCC9346C6E5B /* Pods_FancyFormsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				96FEC4472141AF7A006D5EAA /* FancyForms */,
 				96FEC45F2141AF7B006D5EAA /* FancyFormsTests */,
 				96FEC4462141AF7A006D5EAA /* Products */,
+				A3C8B4734889A41DA2C1A58D /* Pods */,
+				DF5D32C8E1633F3C272679C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,26 @@
 			path = FancyFormsTests;
 			sourceTree = "<group>";
 		};
+		A3C8B4734889A41DA2C1A58D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				211111B3F96E7934C6F13B32 /* Pods-FancyForms.debug.xcconfig */,
+				FA4621324D1E2529C52D97DC /* Pods-FancyForms.release.xcconfig */,
+				A4EC2CB9C56D31C0DE29E453 /* Pods-FancyFormsTests.debug.xcconfig */,
+				962D7AC11E7E276D69D77292 /* Pods-FancyFormsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5D32C8E1633F3C272679C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16005FF34B674D4A1479F31A /* Pods_FancyForms.framework */,
+				174B85A27C42DBF2D108F955 /* Pods_FancyFormsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FEC4652141AF7B006D5EAA /* Build configuration list for PBXNativeTarget "FancyForms" */;
 			buildPhases = (
+				05AA5E1510A07654BDAD3C2B /* [CP] Check Pods Manifest.lock */,
 				96FEC4412141AF7A006D5EAA /* Sources */,
 				96FEC4422141AF7A006D5EAA /* Frameworks */,
 				96FEC4432141AF7A006D5EAA /* Resources */,
+				BEF56BF1C58659642C2B2D9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FEC4682141AF7B006D5EAA /* Build configuration list for PBXNativeTarget "FancyFormsTests" */;
 			buildPhases = (
+				9D089AF85AE78168FB80FF6B /* [CP] Check Pods Manifest.lock */,
 				96FEC4582141AF7B006D5EAA /* Sources */,
 				96FEC4592141AF7B006D5EAA /* Frameworks */,
 				96FEC45A2141AF7B006D5EAA /* Resources */,
@@ -194,6 +229,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AA5E1510A07654BDAD3C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FancyForms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D089AF85AE78168FB80FF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FancyFormsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF56BF1C58659642C2B2D9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FancyForms/Pods-FancyForms-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FancyForms/Pods-FancyForms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96FEC4412141AF7A006D5EAA /* Sources */ = {
@@ -360,6 +452,7 @@
 		};
 		96FEC4662141AF7B006D5EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211111B3F96E7934C6F13B32 /* Pods-FancyForms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +471,7 @@
 		};
 		96FEC4672141AF7B006D5EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4621324D1E2529C52D97DC /* Pods-FancyForms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +490,7 @@
 		};
 		96FEC4692141AF7B006D5EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EC2CB9C56D31C0DE29E453 /* Pods-FancyFormsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -417,6 +512,7 @@
 		};
 		96FEC46A2141AF7B006D5EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962D7AC11E7E276D69D77292 /* Pods-FancyFormsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

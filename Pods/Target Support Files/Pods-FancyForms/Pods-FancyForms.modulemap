@@ -1,0 +1,6 @@
+framework module Pods_FancyForms {
+  umbrella header "Pods-FancyForms-umbrella.h"
+
+  export *
+  module * { export * }
+}
